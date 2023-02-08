@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  height: 40px;
+  background-color: #A92C7E;
+}
+header p {
+  font-size: 15px;
+  color: black;
+  padding: 10px;
+}
+
+.redes i {
+  color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Barra de navegacion */
+.navbar {
+  font-size: 20px;
+  background-color: white;
+}
+.navbar a {
+  color: black;
+}
+.navbar a img {
+  width: 87px;
+}
+
+.navbar-toggler {
+  background-color: #A92C7E;
+}
+.navbar-toggler i {
+  color: #fff;
+  font-size: 25px;
+}
+
+.nav-item {
+  text-align: center;
+}
+.nav-item a:hover {
+  color: #A92C7E;
+}
+
+/* Footer */
+footer {
+  background-color: #A92C7E;
+  color: black;
+}
+
+.f-contacto {
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+.f-contacto h3 {
+  font-size: 30px;
+}
+.f-contacto a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+.f-contacto p {
+  font-size: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  box-shadow: 0 0 5px black;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 5px;
+  line-height: 40px;
+  text-align: center;
+}
+.subir a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+/* Pagina de Resultados */
+.r-section {
+  background-color: #A92C7E;
+  color: black;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.r-section p {
+  color: black !important;
+}
+
+.album img {
+  background-color: #ddd;
+}
+.album img:hover {
+  transform: scale(1.05);
+}
+
+.view {
+  background-color: #A92C7E;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+}
+.view a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.view:hover {
+  background-color: #6d094a;
+  border: 2px solid #fff;
+}
+
+/* Pagina de Contacto */
+.c-section1 {
+  background-color: #A92C7E;
+  color: black;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.c-section1 p {
+  color: black !important;
+  font-size: 20px;
+}
+
+.c-section2 {
+  padding: 20px;
+}
+.c-section2 label {
+  color: #000000;
+  font-size: 20px;
+}
+.c-section2 input {
+  font-size: 20px;
+}
+.c-section2 textarea {
+  font-size: 20px;
+}
+.c-section2 button {
+  background-color: #A92C7E;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.c-section2 button:hover {
+  background-color: #6d094a;
+  border: 2px solid #fff;
+}
+.c-section2 a {
+  text-decoration: none;
+  color: #6d094a;
+  font-size: 20px;
+}
+.c-section2 a i {
+  padding: 10px 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */

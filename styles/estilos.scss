@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    height: 40px;
+    background-color: #A92C7E;
+
+    p {
+        font-size: 15px;
+        color: black;
+        padding: 10px;
+    }
+}
+
+.redes i {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* Barra de navegacion */
+.navbar {
+    font-size: 20px;
+    background-color: white;
+
+    a {
+        color: black;
+
+        img {
+            width: 87px;
+        }
+    }
+}
+
+.navbar-toggler {
+    background-color: #A92C7E;
+
+    i {
+        color: #fff;
+        font-size: 25px;
+    }
+}
+
+.nav-item {
+    text-align: center;
+
+    a:hover {
+        color: #A92C7E;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #A92C7E;
+    color: black;
+}
+
+.f-contacto {
+    padding: 10px;
+    text-align: center;
+    color: black;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: relative;
+    height: 0;
+
+    iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.subir {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+    }
+}
+
+/* Pagina de Resultados */
+.r-section {
+    background-color: #A92C7E;
+    color: black;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    p {
+        color: black !important;
+    }
+}
+
+.album {
+    img {
+        background-color: #ddd;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+}
+
+.view {
+    background-color: #A92C7E;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.view:hover {
+    background-color: #6d094a;
+    border: 2px solid #fff;
+}
+
+/* Pagina de Contacto */
+.c-section1 {
+    background-color: #A92C7E;
+    color: black;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    p {
+        color: black !important;
+        font-size: 20px;
+    }
+}
+
+.c-section2 {
+    padding: 20px;
+
+    label {
+        color: #000000;
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    textarea {
+        font-size: 20px;
+    }
+
+    button {
+        background-color: #A92C7E;
+        border: 2px solid #fff;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    button:hover {
+        background-color: #6d094a;
+        border: 2px solid #fff;
+    }
+
+    a {
+        text-decoration: none;
+        color: #6d094a;
+        font-size: 20px;
+
+        i {
+            padding: 10px 10px;
+        }
+    }
+}
