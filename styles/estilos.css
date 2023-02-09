@@ -1,31 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap");
 * {
   box-sizing: border-box;
 }
 
-/* Header */
 header {
   height: 40px;
   background-color: #A92C7E;
 }
 header p {
   font-size: 15px;
-  color: black;
+  color: #000000;
   padding: 10px;
 }
 
 .redes i {
-  color: black;
+  color: #000000;
   padding: 10px;
   font-size: 20px;
 }
 
-/* Barra de navegacion */
 .navbar {
   font-size: 20px;
-  background-color: white;
+  background-color: #ffffff;
 }
 .navbar a {
-  color: black;
+  color: #000000;
 }
 .navbar a img {
   width: 87px;
@@ -35,7 +34,7 @@ header p {
   background-color: #A92C7E;
 }
 .navbar-toggler i {
-  color: #fff;
+  color: #ffffff;
   font-size: 25px;
 }
 
@@ -46,22 +45,21 @@ header p {
   color: #A92C7E;
 }
 
-/* Footer */
 footer {
   background-color: #A92C7E;
-  color: black;
+  color: #000000;
 }
 
 .f-contacto {
   padding: 10px;
   text-align: center;
-  color: black;
+  color: #000000;
 }
 .f-contacto h3 {
   font-size: 30px;
 }
 .f-contacto a {
-  color: black;
+  color: #000000;
   text-decoration: none;
   font-size: 20px;
 }
@@ -86,8 +84,8 @@ footer {
 .subir {
   height: 40px;
   width: 40px;
-  background-color: white;
-  box-shadow: 0 0 5px black;
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #000000;
   position: fixed;
   right: 40px;
   bottom: 40px;
@@ -101,20 +99,96 @@ footer {
   font-size: 20px;
 }
 
-/* Pagina de Resultados */
+.jumbotron {
+  height: 350px;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.jumbotron h2 {
+  color: #A92C7E;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.trat {
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+  margin: 0;
+}
+.trat h3 {
+  text-transform: uppercase;
+}
+
+.facial {
+  background-color: #6d094a;
+  background-image: url(../img/Facial.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-smoot {
+  background-color: springgreen;
+  background-image: url(../img/tratamiento1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.titulo-smoot {
+  text-align: center;
+  background-color: #A92C7E;
+  color: #000000;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.titulo-smoot h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.titulo-smoot p {
+  width: 100%;
+}
+.titulo-smoot a {
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #A92C7E;
+  padding: 5px;
+  width: 30%;
+  text-decoration: none;
+}
+
+.corporal {
+  background-color: #6d094a;
+  background-image: url(../img/Corporal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.capilar {
+  background-color: #6d094a;
+  background-image: url(../img/Capilar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .r-section {
   background-color: #A92C7E;
-  color: black;
+  color: #000000;
   text-align: center;
   border-radius: 0;
   margin-bottom: 0;
 }
 .r-section p {
-  color: black !important;
+  color: #000000 !important;
 }
 
 .album img {
-  background-color: #ddd;
+  background-color: #dddddd;
 }
 .album img:hover {
   transform: scale(1.05);
@@ -127,24 +201,23 @@ footer {
 }
 .view a {
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 .view:hover {
   background-color: #6d094a;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
 }
 
-/* Pagina de Contacto */
 .c-section1 {
   background-color: #A92C7E;
-  color: black;
+  color: #000000;
   text-align: center;
   border-radius: 0;
   margin-bottom: 0;
 }
 .c-section1 p {
-  color: black !important;
+  color: #000000 !important;
   font-size: 20px;
 }
 
@@ -163,13 +236,13 @@ footer {
 }
 .c-section2 button {
   background-color: #A92C7E;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
   padding: 10px 20px;
   font-size: 20px;
 }
 .c-section2 button:hover {
   background-color: #6d094a;
-  border: 2px solid #fff;
+  border: 2px solid #ffffff;
 }
 .c-section2 a {
   text-decoration: none;

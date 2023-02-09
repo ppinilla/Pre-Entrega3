@@ -1,32 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+// font-family: 'Alkalami', serif;
+// font-family: 'Chicle', cursive;
+// font-family: 'DynaPuff', cursive;
+// font-family: 'Edu QLD Beginner', cursive;
+// font-family: 'Fascinate', cursive;
+// font-family: 'Fuzzy Bubbles', cursive;
+// font-family: 'Gantari', sans-serif;
+// font-family: 'IBM Plex Sans', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Kdam Thmor Pro', sans-serif;
+// font-family: 'Kenia', cursive;
+// font-family: 'Macondo', cursive;
+// font-family: 'Mukta', sans-serif;
+// font-family: 'Nerko One', cursive;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Rubik Moonrocks', cursive;
+// font-family: 'Zen Dots', cursive;
+
+// Variables
+$color1: #A92C7E;
+$color2: #000000;
+$color3: #ffffff;
+$color4: #dddddd;
+$color5: #6d094a;
+
+// $font1: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
 * {
     box-sizing: border-box;
 }
 
-/* Header */
+// Header
 header {
     height: 40px;
-    background-color: #A92C7E;
+    background-color: $color1;
 
     p {
         font-size: 15px;
-        color: black;
+        color: $color2;
         padding: 10px;
     }
 }
 
 .redes i {
-    color: black;
+    color: $color2;
     padding: 10px;
     font-size: 20px;
 }
 
-/* Barra de navegacion */
+// Barra de navegacion
 .navbar {
     font-size: 20px;
-    background-color: white;
+    background-color: $color3;
 
     a {
-        color: black;
+        color: $color2;
 
         img {
             width: 87px;
@@ -35,10 +67,10 @@ header {
 }
 
 .navbar-toggler {
-    background-color: #A92C7E;
+    background-color: $color1;
 
     i {
-        color: #fff;
+        color: $color3;
         font-size: 25px;
     }
 }
@@ -47,27 +79,27 @@ header {
     text-align: center;
 
     a:hover {
-        color: #A92C7E;
+        color: $color1;
     }
 }
 
-/* Footer */
+// Footer
 footer {
-    background-color: #A92C7E;
-    color: black;
+    background-color: $color1;
+    color: $color2;
 }
 
 .f-contacto {
     padding: 10px;
     text-align: center;
-    color: black;
+    color: $color2;
 
     h3 {
         font-size: 30px;
     }
 
     a {
-        color: black;
+        color: $color2;
         text-decoration: none;
         font-size: 20px;
     }
@@ -95,8 +127,8 @@ footer {
 .subir {
     height: 40px;
     width: 40px;
-    background-color: white;
-    box-shadow: 0 0 5px black;
+    background-color: $color3;
+    box-shadow: 0 0 5px $color2;
     position: fixed;
     right: 40px;
     bottom: 40px;
@@ -106,27 +138,104 @@ footer {
 
     a {
         text-decoration: none;
-        color: #000000;
+        color: $color2;
         font-size: 20px;
     }
 }
 
-/* Pagina de Resultados */
+// Pagina de Tratamientos
+.jumbotron{
+    height: 350px;
+    border-radius: 0;
+    margin-bottom: 0;
+    h2{
+        color: $color1;
+        font-size: 80px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue",Arial,sans-serif,;
+    }
+}
+.trat{
+    background-color: $color3;
+    text-align: center;
+    color: $color2;
+    padding: 20px;
+    margin: 0;
+
+    h3{
+        text-transform: uppercase;
+    }
+}
+
+.facial{
+    background-color: $color5;
+    background-image: url(../img/Facial.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-smoot{
+    background-color: springgreen;
+    background-image: url(../img/tratamiento1.jpg);
+    background-size: cover;
+    background-position: center;
+    height:300px;
+}
+.titulo-smoot{
+    text-align: center;
+    background-color: $color1;
+    color: $color2;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    h3{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    p{
+        width: 100%;
+    }
+    a{
+        background-color: $color3;
+        font-size: 15px;
+        color: $color1;
+        padding: 5px;
+        width: 30%;
+        text-decoration: none;
+    }
+}
+
+.corporal{
+    background-color: $color5;
+    background-image: url(../img/Corporal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capilar{
+    background-color: $color5;
+    background-image: url(../img/Capilar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+// Pagina de Resultados
 .r-section {
-    background-color: #A92C7E;
-    color: black;
+    background-color: $color1;
+    color: $color2;
     text-align: center;
     border-radius: 0;
     margin-bottom: 0;
 
     p {
-        color: black !important;
+        color: $color2 !important;
     }
 }
 
 .album {
     img {
-        background-color: #ddd;
+        background-color: $color4;
     }
 
     img:hover {
@@ -135,31 +244,31 @@ footer {
 }
 
 .view {
-    background-color: #A92C7E;
+    background-color: $color1;
     border: 2px solid #fff;
     padding: 10px 20px;
 
     a {
         text-decoration: none;
-        color: #fff;
+        color: $color3;
     }
 }
 
 .view:hover {
-    background-color: #6d094a;
-    border: 2px solid #fff;
+    background-color: $color5;
+    border: 2px solid $color3;
 }
 
-/* Pagina de Contacto */
+// Pagina de Contacto
 .c-section1 {
-    background-color: #A92C7E;
-    color: black;
+    background-color: $color1;
+    color: $color2;
     text-align: center;
     border-radius: 0;
     margin-bottom: 0;
 
     p {
-        color: black !important;
+        color: $color2 !important;
         font-size: 20px;
     }
 }
@@ -168,7 +277,7 @@ footer {
     padding: 20px;
 
     label {
-        color: #000000;
+        color: $color2;
         font-size: 20px;
     }
 
@@ -181,20 +290,20 @@ footer {
     }
 
     button {
-        background-color: #A92C7E;
-        border: 2px solid #fff;
+        background-color: $color1;
+        border: 2px solid $color3;
         padding: 10px 20px;
         font-size: 20px;
     }
 
     button:hover {
-        background-color: #6d094a;
-        border: 2px solid #fff;
+        background-color: $color5;
+        border: 2px solid $color3;
     }
 
     a {
         text-decoration: none;
-        color: #6d094a;
+        color: $color5;
         font-size: 20px;
 
         i {
