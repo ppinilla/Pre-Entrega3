@@ -27,6 +27,7 @@ $color2: #000000;
 $color3: #ffffff;
 $color4: #dddddd;
 $color5: #6d094a;
+$color6: #a92c7d60;
 
 // $font1: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
@@ -43,6 +44,7 @@ header {
         font-size: 15px;
         color: $color2;
         padding: 10px;
+        text-decoration: none;
     }
 }
 
@@ -143,45 +145,184 @@ footer {
     }
 }
 
-// Pagina de Tratamientos
-.jumbotron{
-    height: 350px;
+// Pagina de Inicio
+.jumbotron {
     border-radius: 0;
     margin-bottom: 0;
+}
+
+.trats {
+    width: 100%;
+    height: 100vh;
+    background-color: $color1;
+    background-image: url(../img/bendita\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: $color1;
+    text-transform: uppercase;
+
+    h2 {
+        color: $color1;
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: $color2;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+        border: 8px solid $color1;
+        font-weight: bold;
+    }
+}
+
+.trat1 {
+    align-items: flex-start;
+}
+
+.trat2 {
+    align-items: center;
+}
+
+.trat3 {
+    align-items: flex-end;
+}
+
+.tratamientos {
+    height: 500px;
+    background-color: $color2;
+    background-size: cover;
+    text-align: center;
+
+    h2 {
+        color: $color1;
+        font-size: 80px;
+        padding: 20px;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    p{
+        color: $color2;
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: $color6;
+    }
+    a{
+        background-color: $color1;
+        color: $color3;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+    a:hover{
+        background-color: $color5;
+    }
+}
+
+.f {
+    background-image: url(../img/Facial.jpg);
+    background-position: right;
+}
+.c{
+    background-image: url(../img/Corporal.jpg);
+}
+.cc{
+    background-image: url(../img/Capilar.jpg);
+}
+
+.i-section{
+    height: 700px;
+    background-color: $color4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     h2{
+        color: $color2;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+    }
+    form{
+        font-size: 25px;
+        width: 100%;
+        color: $color2;
+
+        input{
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            text-align: start;
+            font-size: 20px;
+        }
+        textarea{
+            width: 600px;
+            height: 100px;
+            padding: 19ox;
+            text-align: start;
+            font-size: 20px;
+        }
+        button{
+            background-color: $color1;
+            border: 2px solid $color3;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+        button:hover{
+            background-color: $color5;
+            border: 2px solid $color3;
+        }
+    }
+}
+// Pagina de Tratamientos
+.t {
+    height: 400px;
+
+    h2 {
         color: $color1;
         font-size: 80px;
         text-transform: uppercase;
-        font-family: "Helvetica Neue",Arial,sans-serif,;
+        font-family: "Helvetica Neue", Arial, sans-serif, ;
     }
 }
-.trat{
+
+.trat {
+    height: 400px;
     background-color: $color3;
     text-align: center;
     color: $color2;
     padding: 20px;
     margin: 0;
 
-    h3{
+    h3 {
         text-transform: uppercase;
     }
 }
 
-.facial{
+.facial {
     background-color: $color5;
     background-image: url(../img/Facial.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.img-smoot{
+.img-smoot {
     background-color: springgreen;
     background-image: url(../img/tratamiento1.jpg);
     background-size: cover;
     background-position: center;
-    height:300px;
+    height: 300px;
 }
-.titulo-smoot{
+
+.titulo-smoot {
     text-align: center;
     background-color: $color1;
     color: $color2;
@@ -189,14 +330,17 @@ footer {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    h3{
-        font-size: 30px;
+
+    h3 {
+        font-size: 20px;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         width: 100%;
     }
-    a{
+
+    a {
         background-color: $color3;
         font-size: 15px;
         color: $color1;
@@ -206,14 +350,14 @@ footer {
     }
 }
 
-.corporal{
+.corporal {
     background-color: $color5;
     background-image: url(../img/Corporal.jpg);
     background-size: cover;
     background-position: center;
 }
 
-.capilar{
+.capilar {
     background-color: $color5;
     background-image: url(../img/Capilar.jpg);
     background-size: cover;
